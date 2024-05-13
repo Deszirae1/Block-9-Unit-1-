@@ -1,0 +1,115 @@
+           
+body {
+                background-image: url('images/gray background.jpg');
+                min-height: 100vh;
+                background-size: cover; 
+                background-repeat: no-repeat;
+                background-position: center; 
+        }
+
+        h1 {
+            font-size: xxx-large, 'satisfy', cursive; 
+        }
+        h2 {
+            font-size: x-large;
+            color: teal
+        }
+
+         h3 {
+             font-size: large
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        h5 {
+            text-align: left;
+            font-size: x-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h6 {
+            text-align: center;
+            font-size: x-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h7 {
+            text-align: left;
+            font-size: x-large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            font-size: xx-large;
+            color: teal;
+        }
+
+#about-header {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#portfolio-header {
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 622px;
+}
+
+.navigation { 
+    text-align: center; 
+}
+
+.traits {
+    padding-left: 10px;
+}
+
+.photo-border {
+    border: 6px solid teal; 
+}
+
+.content {
+    font-size: x-large;
+    flex: 1;
+}
+
+.name {
+    padding-right: 30px;
+}
+
+.photo-border {
+    width: 275px; 
+    height: auto; 
+    display: block; 
+    margin-right: 150px;
+    margin-left: 30px;
+}
+
+.contents {
+display: flex;
+}
+
+.about-section .image1 {
+    float: left; 
+}
+
+.about-section .image2 {
+    float: center;
+    margin-left: 575px; 
+}
+
+.about-section .image3 {
+    float: left;
+}
+
+.footer-social {
+    background-color: teal;
+    height: 70px;
+    padding: 10px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
